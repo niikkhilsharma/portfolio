@@ -58,8 +58,8 @@
 
 ## <details> <summary> GitHub Trophies 🏆</summary> ![GitHub Medals](https://github-profile-trophy.vercel.app/?username=niikkhilsharma&theme=gruvbox&no-bg=true&no-frame=true)</details>
 
-## Latest Tweets
+<!-- ## Latest Tweets -->
 
-[![](https://tweeco.pushkaryadav.in/api/handle/niikkhilsharma)](https://tweeco.pushkaryadav.in)
+<!-- [![](https://tweeco.pushkaryadav.in/api/handle/niikkhilsharma)](https://tweeco.pushkaryadav.in) -->
 
-![](https://visitcount.itsvg.in/api?id=niikkhilsharma&label=Profile%20Views&icon=8&pretty=true)
+<!-- ![](https://visitcount.itsvg.in/api?id=niikkhilsharma&label=Profile%20Views&icon=8&pretty=true) -->
