@@ -63,7 +63,13 @@ export default function WorkSection() {
 							</div>
 						</div>
 					</AccordionTrigger>
-					<AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">{work.description}</AccordionContent>
+					<AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
+						{Array.isArray(work.description) ?
+							<ul className="list-disc pl-4 space-y-2">
+								{work.description.map(point => <li key={point}>{point}</li>)}
+							</ul>
+						:	work.description}
+					</AccordionContent>
 				</AccordionItem>
 			))}
 		</Accordion>

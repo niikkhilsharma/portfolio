@@ -92,8 +92,11 @@ export const DATA = {
 			logoUrl: '/assets/company-logo/scout7-ai.avif',
 			start: 'June 2025',
 			end: 'Present',
-			description:
-				'Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.',
+			description: [
+				'Attained 60% infrastructure cost reduction by building multitenant architecture in Next.js that enabled independent, industry-specific website routing via subdomain for several industries such as skincare.scout7.ai and fashion.scout7.ai from a single codebase, preventing industry-specific website deployment.',
+				'Optimized the React.js architecture by implementing advanced state management and code-splitting patterns, reducing Time-to-Interactive (TTI) and driving a 40% increase in user engagement through a more responsive UI.',
+				'Accelerated development time by 40% and achieved UI-UX consistency across all sub-module applications in a micro-frontend environment by building an internal component library with 57+ reusable React components and CLI-based installation.',
+			],
 		},
 		{
 			company: 'Amrutam',
@@ -104,8 +107,10 @@ export const DATA = {
 			logoUrl: '/assets/company-logo/amrutam.avif',
 			start: 'Nov 2023',
 			end: 'May 2024',
-			description:
-				'Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.',
+			description: [
+				'Improved appointment booking conversion rate by 5% by identifying user drop-off on the booking appointment page using Microsoft Clarity, caused by a confusing 24-hour time selection calendar, and resolving it with a redesigned 12-hour calendar flow.',
+				'Single-handedly rebuilt the entire landing page for Amrutam’s global website, amrutam.global, from Figma and lifted Lighthouse performance from 30% to 80%.',
+			],
 		},
 	],
 	education: [
