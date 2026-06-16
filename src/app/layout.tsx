@@ -21,20 +21,24 @@ const geistMono = Geist_Mono({
 	variable: '--font-mono',
 })
 
+const keyWordRichTitle = DATA.name + ' | Frontend Engineer | React, Next.js, TypeScript'
+const ProdUrl = 'https://www.itsnikhil.in'
+
 export const metadata: Metadata = {
 	metadataBase: new URL(DATA.url),
 	title: {
-		default: DATA.name,
-		template: `%s | ${DATA.name}`,
+		default: keyWordRichTitle,
+		template: `%s | ${keyWordRichTitle}`,
 	},
 	description: DATA.description,
 	openGraph: {
-		title: `${DATA.name}`,
+		title: keyWordRichTitle,
 		description: DATA.description,
 		url: DATA.url,
-		siteName: `${DATA.name}`,
+		siteName: keyWordRichTitle,
 		locale: 'en_US',
 		type: 'website',
+		images: [{ url: ProdUrl + '/og-image.png', width: 1512, height: 1606 }],
 	},
 	robots: {
 		index: true,
@@ -48,8 +52,10 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: `${DATA.name}`,
+		title: keyWordRichTitle,
 		card: 'summary_large_image',
+		description: `${DATA.description}`,
+		images: [`${ProdUrl}/og-image.png`],
 	},
 	verification: {
 		google: '',

@@ -30,7 +30,7 @@ export default function ContactSection() {
 						className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm">
 						with a direct question on LinkedIn
 					</Link>{' '}
-					and I&apos;ll respond whenever I can. I will ignore all soliciting.
+					and I&apos;ll respond.
 				</p>
 			</div>
 		</div>

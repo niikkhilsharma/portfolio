@@ -21,8 +21,8 @@ export const DATA = {
 	location: 'San Francisco, CA',
 	locationLink: 'https://www.google.com/maps/place/sanfrancisco',
 	description:
-		'Frontend Software Engineer building AI-powered platforms and developer tools — with a bias for systems that scale and interfaces that feel effortless.',
-	summary: `I build frontend systems that lean heavily into AI. At [Scout7 AI](https://scout7.ai/) I built multi-tenant Next.js architecture that cut infrastructure costs by 60%, and a 57-component CLI library that shaved 40% off development cycles. \n\nAt [BigOHealth](https://bigohealth.com/) I single-handedly migrated the entire Next.js codebase from App Router to Pages Router — architecture decisions, implementation, shipped in a month — a platform now used by 80,000+ patients for oncology decisions.\n\nI'm an open-source contributor to [Meta's Lexical.js](https://github.com/facebook/lexical/pull/7880) (23.4K+ GitHub stars). On the side, I built [chat-docs-library](https://github.com/niikkhilsharma/chat-docs-library) — a RAG-based PDF query app where users have conversations with their documents, built on LangChain, MongoDB, and OpenAI API.\n\nMy default instinct is always toward the interface — load time, responsiveness, whether the AI layer feels invisible or just annoying.`,
+		'Frontend Software Engineer specializing in React.js, Next.js, TypeScript, AI-powered platforms, and developer tools — building scalable frontend systems and fast, polished user interfaces.',
+	summary: `Hi, I’m Nikhil Sharma, a Frontend Software Engineer focused on building scalable React.js, Next.js, and TypeScript applications for AI-powered products, SaaS platforms, and developer tools.\n\nAt [Scout7 AI](https://scout7.ai/), I built a multi-tenant Next.js architecture that reduced infrastructure costs by 60%, along with a 57-component internal CLI-based React component library that reduced development cycles by 40%.\n\nAt [BigOHealth](https://bigohealth.com/), I migrated the entire Next.js codebase from App Router to Pages Router — handling architecture decisions, implementation, and delivery within one month for a healthcare platform now used by 80,000+ patients.\n\nI’m also an open-source contributor to [Meta’s Lexical.js](https://github.com/facebook/lexical/pull/7880) and built [chat-docs-library](https://github.com/niikkhilsharma/chat-docs-library), a RAG-based AI PDF chat app using LangChain, MongoDB, and the OpenAI API.\n\nMy work sits at the intersection of frontend engineering, AI product development, performance optimization, and user experience — making interfaces fast, scalable, and effortless to use.`,
 	avatarUrl: '/me.png',
 	skills: [
 		{ name: 'React', icon: ReactLight },
@@ -196,7 +196,7 @@ export const DATA = {
 		// 	video: 'https://cdn.llm.report/openai-demo.mp4',
 		// },
 		{
-			title: 'The Metagame',
+			title: 'The Metagame: Gaming Landing Page',
 			href: 'https://metagame.itsnikhil.in/',
 			dates: 'November 2024 - December 2024',
 			active: true,
@@ -219,7 +219,7 @@ export const DATA = {
 			video: '/assets/videos/assets-website.mov',
 		},
 		{
-			title: 'Chat Docs Library: AI PDF Chat',
+			title: 'Chat Docs Library: AI PDF Chat App',
 			href: 'http://chat.nikkhil.tech/',
 			dates: 'Jan 2024 - Feb 2024',
 			active: true,
