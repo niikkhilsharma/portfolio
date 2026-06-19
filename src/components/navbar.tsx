@@ -14,7 +14,10 @@ export default function Navbar() {
     <div className="pointer-events-none fixed inset-x-0 bottom-4 z-30">
       <Dock className="z-50 pointer-events-auto relative h-14 p-2 w-fit mx-auto flex gap-2 border bg-card/90 backdrop-blur-3xl shadow-[0_0_10px_3px] shadow-primary/5">
         {DATA.navbar.map((item) => {
-          const isExternal = item.href.startsWith("http");
+          const isExternal =
+            item.href.startsWith("http") ||
+            item.href.startsWith("mailto:") ||
+            item.href.endsWith(".pdf");
           return (
             <Tooltip key={item.href}>
               <TooltipTrigger asChild>
@@ -46,7 +49,10 @@ export default function Navbar() {
         {Object.entries(DATA.contact.social)
           .filter(([_, social]) => social.navbar)
           .map(([name, social], index) => {
-            const isExternal = social.url.startsWith("http");
+            const isExternal =
+              social.url.startsWith("http") ||
+              social.url.startsWith("mailto:") ||
+              social.url.endsWith(".pdf");
             const IconComponent = social.icon;
             return (
               <Tooltip key={`social-${name}-${index}`}>
